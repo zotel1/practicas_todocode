@@ -16,9 +16,15 @@ public class EjercicioIf {
         edad = teclado.nextInt();
 
 
-        if (edad >= 18) {
+        if (edad > 18) {
             System.out.println("Felicidades " + nombre + " sos mayor de edad");
-        } else
-            System.out.println(nombre + "No podes acceder :/... " +  " sos menor de edad");
+        } else {
+            if (edad == 18) {
+                System.out.println("Felicidades " + nombre + " sos mayor y tenes " +  edad + "años");
+            }
+            else
+                System.out.println(nombre + "No podes acceder :/... " +  " sos menor de edad");
+        }
+
     }
 }
