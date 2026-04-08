@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EjercicioIf {
+public class EjemploIf {
 
     public static void main(String[] args) {
         int edad;
