@@ -46,15 +46,15 @@ public class EjemploIncremento {
             else {
                 if (montoTotal >= 100 &&  montoTotal <= 300) {
 
-                    descuento = montoTotal * (5/100);
+                    descuento = montoTotal * 0.05;
                     totalConDescuento = montoTotal - descuento;
-                    System.out.println("Por su compra tiene un descuento del 5% que equivale a:" + descuento + "El monto total con descuento es de: " + totalConDescuento + "USD." );
+                    System.out.println("Por su compra tiene un descuento del 5% que equivale a: " + descuento + " pesos. El monto total con descuento es de: " + totalConDescuento + "USD." );
                 }
                 else {
 
-                    descuento = montoTotal * (10/100);
+                    descuento = montoTotal * 0.1;
                     totalConDescuento = montoTotal - descuento;
-                    System.out.println("Por su compra tiene un descuento del 10% que equivale a:" + descuento + "El monto total con descuento es de: " + totalConDescuento + "USD." );
+                    System.out.println("Por su compra tiene un descuento del 10% que equivale a: " + descuento + " pesos. El monto total con descuento es de: " + totalConDescuento + "USD." );
 
                 }
 
